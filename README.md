@@ -1,4 +1,4 @@
-# CrryptoClustering
+# CryptoClustering
 Python and unsupervised learning
 
 
@@ -15,6 +15,7 @@ Python and unsupervised learning
 - Create a DataFrame with the scaled data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
 
     - The first five rows of the scaled DataFrame should appear as follows:
+![pic1](./Resources/scaled_DataFrame.png)
 
 ## Find the Best Value for k Using the Original Scaled DataFrame
 Use the elbow method to find the best value for k using the following steps:
@@ -48,6 +49,8 @@ Use the following steps to cluster the cryptocurrencies for the best value for k
 - Create a new DataFrame with the PCA data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
 
     - The first five rows of the PCA DataFrame should appear as follows:
+
+![pic2](./Resources/PCA_DataFrame.png)
 
 ## Find the Best Value for k Using the PCA Data
 Use the elbow method on the PCA data to find the best value for k using the following steps:
